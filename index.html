@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat с категориями</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Категорії</h2>
+            <ul>
+                <li>Фантастика</li>
+                <li>Кіберпанк</li>
+                <li>Середньовіччя</li>
+            </ul>
+        </div>
+        <div class="chat-container">
+            <div class="chat">
+                <div class="messages">
+                </div>
+                <form id="chat-form">
+                    <input type="text" id="message-input" placeholder="Введите сообщение..." autocomplete="off" />
+                    <button type="submit">Створити історію</button>
+                </form>
+            </div>
+        </div>
+        <div class="previous-chats">
+            <h2>Минулі історії</h2>
+            <ul>
+                <li>Історія про...</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
